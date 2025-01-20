@@ -7,8 +7,8 @@ export default function App(){
   return(
     <Fragment>
       <FirstSection />
-      <SecondSection />
-      <Test />
+      
+      
     </Fragment>
   );
 }

@@ -12,6 +12,25 @@ export default function FirstSection(){
                     <FaRegEnvelope/>
                 </button>
             </header>
+
+            <section className="text-white h-screen flex flex-col justify-end">
+                <div className="flex gap-2 font-handjet">
+                    <h1>Hi, I'm</h1>
+                    <div>
+                        <span>K</span>
+                        <span>E</span>
+                        <span>N</span>
+                        <span>N</span>
+                        <span>E</span>
+                        <span>T</span>
+                        <span>H</span>
+                    </div>
+                </div>
+
+                <div>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, est sit ullam explicabo iure fuga totam voluptas, ratione dolores praesentium neque ad ducimus nam dolorum impedit sint aperiam rem. Quaerat!
+                </div>
+            </section>
         </Fragment>
     )
 }
