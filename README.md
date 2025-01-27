@@ -1,8 +1,27 @@
-# React + Vite
+# Tubio-react-portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal portfolio! This repository showcases my previous mini projects, highlighting my skills and experience in front-end web development. You will also find my contact information if you would like to reach out.
 
-Currently, two official plugins are available:
+## About
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This portfolio includes a collection of my mini projects, which demonstrate various technologies I have worked with. It serves as a showcase of my development journey and provides insights into the work I’ve done.
+
+## What’s Inside
+
+- A collection of previous mini projects I’ve worked on.
+- Contact information for getting in touch with me.
+
+## Technologies Used
+
+--- **Frontend**: React.js, Tailwindcss , HTML, CSS, JavaScript
+
+## Contact
+
+Feel free to reach out to me for any questions, feedback, or potential collaborations!
+
+- **Email**: [tubiokenneth40@gmail.com](mailto:tubiokenneth40@gmail.com)
+- **Facebook**: [https://web.facebook.com/kenneth.tubio](https://web.facebook.com/kenneth.tubio)
+- **GitHub**: [https://github.com/KenTubio](https://github.com/KenTubio)
+- **Portfolio**: TBA
+
+Thank you for visiting my portfolio! 😊
