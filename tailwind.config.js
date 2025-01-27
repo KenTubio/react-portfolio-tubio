@@ -34,16 +34,6 @@ export default {
       blur:{
         'xs':['2px'],
       },
-
-      keyframes: {
-        fadeRight: {
-          '0%': { opacity: '0', transform: 'translateX(-50px)' },
-          '100%': { opacity: '1', transform: 'translateX(0)' },
-        },
-      },
-      animation: {
-        fadeRight: 'fadeRight 2s ease-in-out forwards',
-      },
     },
   },
   plugins: [],
