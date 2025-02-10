@@ -21,7 +21,7 @@ export default {
       'sm': {'max': '639px'},
       
       
-      'xs': {'max': '350px'},
+      'xs': {'max': '450px'},
     },
     extend: {
       fontFamily: {
