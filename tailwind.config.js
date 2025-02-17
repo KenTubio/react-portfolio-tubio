@@ -45,11 +45,17 @@ export default {
         shake: {
           
         },
+
+        slider: {
+          "0%": { transform: "translateX(0%)" },
+          "100%": { transform: "translateX(-100%)" },
+        
+        },
       },
 
       animation: {
         rotate: "rotate 2s ease-in-out infinite",
-     
+        slider: "slider 10s ease-in-out infinite",
       },
     },
   },
