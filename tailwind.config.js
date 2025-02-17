@@ -34,6 +34,23 @@ export default {
       blur:{
         'xs':['2px'],
       },
+
+      keyframes: {
+        rotate: {
+          "0%": { transform: "rotate(0deg)" },
+          "50%": { transform: "rotate(90deg)" },
+        
+        },
+
+        shake: {
+          
+        },
+      },
+
+      animation: {
+        rotate: "rotate 2s ease-in-out infinite",
+     
+      },
     },
   },
   plugins: [],

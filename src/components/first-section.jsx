@@ -2,6 +2,7 @@ import { Fragment, useEffect} from "react"
 import AOS from "aos";
 import "aos/dist/aos.css";
 import ContactMe from "./contact-me";
+import { FiChevronsDown } from "react-icons/fi";
 
 
 export function FirstSection(){
@@ -22,7 +23,7 @@ export function FirstSection(){
                 <ContactMe />
             </header>
 
-            <section className=" h-screen flex flex-col justify-end gap-6 p-28 sm:p-3 md:items-center md:text-center md:justify-center">
+            <section className=" h-screen flex flex-col justify-end gap-6 p-28 sm:p-3 md:items-center md:text-center md:justify-center relative">
                 <div className="flex gap-2 font-handjet text-5xl lg:text-4xl font-bold tracking-widest text-slate-400">
                     <h1>Hi, I'm</h1>
                     <div>
@@ -45,7 +46,13 @@ export function FirstSection(){
                 <p className="text-slate-600 text-2xl lg:text-xl sm:text-sm md:text-base font-inter antialiased w-9/12 lg:w-full" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="1000">
                     I’m a aspiring front-end web developer who helps in creating user-friendly web applications. I focus on building responsive designs and simple, functional interfaces that enhance the user experience.
                 </p>
+
+                <a href="#second-section" className=" text-white hidden absolute bottom-28 md:block text-4xl animate-bounce cursor-pointer"><FiChevronsDown /></a>
+
+             
             </section>
+
+            
         </Fragment>
     )
 } 

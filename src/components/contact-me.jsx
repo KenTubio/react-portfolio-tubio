@@ -16,11 +16,14 @@ export default function ContactMe() {
   return (
     <>
       <button
-        className="text-white text-3xl sm:text-2xl hover:scale-110 transition"
+        className="text-white text-4xl sm:text-2xl hover:scale-110 transition relative"
         onClick={ContactPopUp}
       >
         <FaRegEnvelope />
+
+        <div className="absolute w-3 h-3 bg-red-400 -top-1 -left-2 rounded-full animate-ping"></div>
       </button>
+      
 
       {/* here is the popup section */}
       {isPopUpVisible && (
@@ -30,6 +33,8 @@ export default function ContactMe() {
             onClick={ClosePopUp}
           >
             <IoIosCloseCircleOutline />
+
+
           </button>
 
 
