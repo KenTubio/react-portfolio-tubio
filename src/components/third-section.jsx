@@ -32,7 +32,7 @@ export default function ThirdSection(){
             </section>
 
             <div className="flex justify-center">
-                <img src="/bg.svg" alt="" />
+                <img src="./images/bg.svg" alt="" />
             </div>
 
        </Fragment>

@@ -17,7 +17,7 @@ export function FirstSection(){
             <header className=" flex justify-between items-center fixed left-0 right-0 top-0 px-16 sm:px-4 pt-5 z-10">
                 <a href="" aria-label="home">
                     <img className="w-28 sm:w-20
-                    " src="/new-logoni-bro.png" alt="Logo" />
+                    " src="./images/new-logoni-bro.png" alt="Logo" />
                 </a>
 
                 <ContactMe />
