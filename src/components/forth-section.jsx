@@ -18,7 +18,8 @@ export default function ForthSection() {
 
         {/* first mini project */}
         <div className="grid grid-cols-2 items-start gap-10 antialiased gap-y-24  lg:grid-cols-1">
-          <div className=" flex flex-col gap-7" data-aos="fade-right"
+          <div className=" flex flex-col gap-7" 
+            data-aos="fade-up"
             data-aos-duration="1500">
             <h1 className="relative font-handjet font-bold text-4xl md:text-2xl tracking-wide text-slate-300 w-full flex justify-between items-center">
               EE - Landing Page
@@ -50,10 +51,8 @@ export default function ForthSection() {
 
           <div
             className="w-full h-full"
-
-            data-aos="fade-left"
+            data-aos="fade-up"
             data-aos-duration="1500"
-            data-aos-delay="400"
           >
             <video
               loop
@@ -68,8 +67,11 @@ export default function ForthSection() {
 
         {/* seconnd mini project */}
 
-        <div className=" flex flex-col gap-7" data-aos="fade-right"
-            data-aos-duration="1500">
+        <div className=" flex flex-col gap-7" 
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            data-aos-delay="350"
+        >
             <h1 className="relative font-handjet font-bold text-4xl tracking-wide text-slate-300 w-full flex justify-between items-center md:text-2xl">
               SUPHA - E Supermarket
               <a
@@ -94,10 +96,9 @@ export default function ForthSection() {
 
           <div
             className="w-full h-full"
-
-            data-aos="fade-left"
+            data-aos="fade-up"
             data-aos-duration="1500"
-            data-aos-delay="400"
+            data-aos-delay="350"
           >
             <video
               loop
@@ -113,8 +114,12 @@ export default function ForthSection() {
 
           {/* third mini project */}
 
-        <div className=" flex flex-col gap-7" data-aos="fade-right"
-            data-aos-duration="1500">
+        <div className=" flex flex-col gap-7"
+            
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            data-aos-delay="450"
+        >
             <h1 className="relative font-handjet font-bold text-4xl tracking-wide text-slate-300 w-full flex justify-between items-center md:text-2xl">
               CryptoWatch
               <a
@@ -139,10 +144,9 @@ export default function ForthSection() {
 
           <div
             className="w-full h-full"
-
-            data-aos="fade-left"
+            data-aos="fade-up"
             data-aos-duration="1500"
-            data-aos-delay="400"
+            data-aos-delay="450"
           >
             <video
               loop
