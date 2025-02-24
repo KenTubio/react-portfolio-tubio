@@ -119,7 +119,7 @@ export default function ForthSection() {
               CryptoWatch
               <a
                 className="text-3xl md:text-2xl hover:scale-125 cursor-pointer transition hover:rotate-45 "
-                href="https://kentubio.github.io/tubio_portfolio/dist/projects/ecommerce-sample.html"
+                href="https://kentubio.github.io/tubio_portfolio/dist/projects/apiTraining(cryptowatch).html"
                 target="_blank"
               >
                 <GoArrowUpRight />
@@ -150,7 +150,7 @@ export default function ForthSection() {
               preload="none"
               muted
               className=" w-full h-full rounded-2xl"
-              src="./videos/ecommerce.mp4"
+              src="./videos/cryptowatch.mp4"
             ></video>
           </div>
 
