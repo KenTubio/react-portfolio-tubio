@@ -2,7 +2,6 @@ import { GoArrowUpRight } from "react-icons/go";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
-import LazyLoad from "react-lazy-load";
 
 export default function ForthSection() {
   useEffect(() => {
@@ -27,7 +26,6 @@ export default function ForthSection() {
                 className="text-3xl md:text-2xl hover:scale-125 cursor-pointer transition hover:rotate-45"
                 href="https://kentubio.github.io/tubio_portfolio/dist/projects/landing-page.html"
                 target="_blank"
-                rel="noopener noreferrer"
               >
                 <GoArrowUpRight />
               </a>
@@ -57,17 +55,14 @@ export default function ForthSection() {
             data-aos-duration="1500"
             data-aos-delay="400"
           >
-            <LazyLoad  offset={0}>
-              <video
-                loop
-                autoPlay
-                muted
-                playsInline
-                preload="none"
-                className="w-full h-full rounded-2xl"
-                src="./videos/landingpage.mp4"
-              ></video>
-            </LazyLoad>
+            <video
+              loop
+              autoPlay
+              preload="none"
+              muted
+              className=" w-full h-full rounded-2xl"
+              src="./videos/landingpage.mp4"
+            ></video>
           </div>
 
 
@@ -81,7 +76,6 @@ export default function ForthSection() {
                 className="text-3xl md:text-2xl hover:scale-125 cursor-pointer transition hover:rotate-45 "
                 href="https://kentubio.github.io/tubio_portfolio/dist/projects/ecommerce-sample.html"
                 target="_blank"
-                rel="noopener noreferrer"
               >
                 <GoArrowUpRight />
               </a>
@@ -105,17 +99,14 @@ export default function ForthSection() {
             data-aos-duration="1500"
             data-aos-delay="400"
           >
-            <LazyLoad  offset={0}>
-              <video
-                loop
-                autoPlay
-                muted
-                playsInline
-                preload="none"
-                className="w-full h-full rounded-2xl"
-                src="./videos/ecommerce.mp4"
-              ></video>
-            </LazyLoad>
+            <video
+              loop
+              autoPlay
+              preload="none"
+              muted
+              className=" w-full h-full rounded-2xl"
+              src="./videos/ecommerce.mp4"
+            ></video>
           </div>
 
 
@@ -130,7 +121,6 @@ export default function ForthSection() {
                 className="text-3xl md:text-2xl hover:scale-125 cursor-pointer transition hover:rotate-45 "
                 href="https://kentubio.github.io/tubio_portfolio/dist/projects/apiTraining(cryptowatch).html"
                 target="_blank"
-                rel="noopener noreferrer"
               >
                 <GoArrowUpRight />
               </a>
@@ -154,17 +144,14 @@ export default function ForthSection() {
             data-aos-duration="1500"
             data-aos-delay="400"
           >
-            <LazyLoad  offset={0}>
-              <video
-                loop
-                autoPlay
-                muted
-                playsInline
-                preload="none"
-                className="w-full h-full rounded-2xl"
-                src="./videos/cryptowatch.mp4"
-              ></video>
-            </LazyLoad>
+            <video
+              loop
+              autoPlay
+              preload="none"
+              muted
+              className=" w-full h-full rounded-2xl"
+              src="./videos/cryptowatch.mp4"
+            ></video>
           </div>
 
         </div>
