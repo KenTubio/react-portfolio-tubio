@@ -2,6 +2,7 @@ import { GoArrowUpRight } from "react-icons/go";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import LazyLoad from "react-lazy-load";
 
 export default function ForthSection() {
   useEffect(() => {
@@ -18,8 +19,7 @@ export default function ForthSection() {
 
         {/* first mini project */}
         <div className="grid grid-cols-2 items-start gap-10 antialiased gap-y-24  lg:grid-cols-1">
-          <div className=" flex flex-col gap-7" 
-            data-aos="fade-up"
+          <div className=" flex flex-col gap-7" data-aos="fade-up"
             data-aos-duration="1500">
             <h1 className="relative font-handjet font-bold text-4xl md:text-2xl tracking-wide text-slate-300 w-full flex justify-between items-center">
               EE - Landing Page
@@ -27,6 +27,7 @@ export default function ForthSection() {
                 className="text-3xl md:text-2xl hover:scale-125 cursor-pointer transition hover:rotate-45"
                 href="https://kentubio.github.io/tubio_portfolio/dist/projects/landing-page.html"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <GoArrowUpRight />
               </a>
@@ -51,33 +52,36 @@ export default function ForthSection() {
 
           <div
             className="w-full h-full"
+
             data-aos="fade-up"
             data-aos-duration="1500"
+            data-aos-delay="400"
           >
-            <video
-              loop
-              autoPlay
-              preload="none"
-              muted
-              className=" w-full h-full rounded-2xl"
-              src="./videos/landingpage.mp4"
-            ></video>
+            <LazyLoad  offset={0}>
+              <video
+                loop
+                autoPlay
+                muted
+                playsInline
+                preload="none"
+                className="w-full h-full rounded-2xl"
+                src="./videos/landingpage.mp4"
+              ></video>
+            </LazyLoad>
           </div>
 
 
         {/* seconnd mini project */}
 
-        <div className=" flex flex-col gap-7" 
-            data-aos="fade-up"
-            data-aos-duration="1500"
-            data-aos-delay="350"
-        >
+        <div className=" flex flex-col gap-7" data-aos="fade-up"
+            data-aos-duration="1500">
             <h1 className="relative font-handjet font-bold text-4xl tracking-wide text-slate-300 w-full flex justify-between items-center md:text-2xl">
               SUPHA - E Supermarket
               <a
                 className="text-3xl md:text-2xl hover:scale-125 cursor-pointer transition hover:rotate-45 "
                 href="https://kentubio.github.io/tubio_portfolio/dist/projects/ecommerce-sample.html"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <GoArrowUpRight />
               </a>
@@ -96,36 +100,37 @@ export default function ForthSection() {
 
           <div
             className="w-full h-full"
+
             data-aos="fade-up"
             data-aos-duration="1500"
-            data-aos-delay="350"
+            data-aos-delay="400"
           >
-            <video
-              loop
-              autoPlay
-              preload="none"
-              muted
-              className=" w-full h-full rounded-2xl"
-              src="./videos/ecommerce.mp4"
-            ></video>
+            <LazyLoad  offset={0}>
+              <video
+                loop
+                autoPlay
+                muted
+                playsInline
+                preload="none"
+                className="w-full h-full rounded-2xl"
+                src="./videos/ecommerce.mp4"
+              ></video>
+            </LazyLoad>
           </div>
 
 
 
           {/* third mini project */}
 
-        <div className=" flex flex-col gap-7"
-            
-            data-aos="fade-up"
-            data-aos-duration="1500"
-            data-aos-delay="450"
-        >
+        <div className=" flex flex-col gap-7" data-aos="fade-up"
+            data-aos-duration="1500">
             <h1 className="relative font-handjet font-bold text-4xl tracking-wide text-slate-300 w-full flex justify-between items-center md:text-2xl">
               CryptoWatch
               <a
                 className="text-3xl md:text-2xl hover:scale-125 cursor-pointer transition hover:rotate-45 "
-                href="https://kentubio.github.io/tubio_portfolio/dist/projects/ecommerce-sample.html"
+                href="https://kentubio.github.io/tubio_portfolio/dist/projects/apiTraining(cryptowatch).html"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <GoArrowUpRight />
               </a>
@@ -144,18 +149,22 @@ export default function ForthSection() {
 
           <div
             className="w-full h-full"
+
             data-aos="fade-up"
             data-aos-duration="1500"
-            data-aos-delay="450"
+            data-aos-delay="400"
           >
-            <video
-              loop
-              autoPlay
-              preload="none"
-              muted
-              className=" w-full h-full rounded-2xl"
-              src="./videos/ecommerce.mp4"
-            ></video>
+            <LazyLoad  offset={0}>
+              <video
+                loop
+                autoPlay
+                muted
+                playsInline
+                preload="none"
+                className="w-full h-full rounded-2xl"
+                src="./videos/cryptowatch.mp4"
+              ></video>
+            </LazyLoad>
           </div>
 
         </div>
