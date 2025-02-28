@@ -57,7 +57,7 @@ export default function ForthSection() {
             data-aos-duration="1500"
             data-aos-delay="400"
           >
-            <LazyLoad  offset={0}>
+            <LazyLoad  offset={100}>
               <video
                 loop
                 autoPlay
@@ -66,6 +66,7 @@ export default function ForthSection() {
                 preload="none"
                 className="w-full h-full rounded-2xl"
                 src="./videos/landingpage.mp4"
+                poster="./images/landing.png"
               ></video>
             </LazyLoad>
           </div>
@@ -105,7 +106,7 @@ export default function ForthSection() {
             data-aos-duration="1500"
             data-aos-delay="400"
           >
-            <LazyLoad  offset={0}>
+            <LazyLoad  offset={100}>
               <video
                 loop
                 autoPlay
@@ -114,6 +115,7 @@ export default function ForthSection() {
                 preload="none"
                 className="w-full h-full rounded-2xl"
                 src="./videos/ecommerce.mp4"
+                poster="./images/ecoms.png"
               ></video>
             </LazyLoad>
           </div>
@@ -154,7 +156,7 @@ export default function ForthSection() {
             data-aos-duration="1500"
             data-aos-delay="400"
           >
-            <LazyLoad  offset={0}>
+            <LazyLoad  offset={100}>
               <video
                 loop
                 autoPlay
@@ -163,6 +165,7 @@ export default function ForthSection() {
                 preload="none"
                 className="w-full h-full rounded-2xl"
                 src="./videos/cryptowatch.mp4"
+                poster="./images/cwatch.png"
               ></video>
             </LazyLoad>
           </div>

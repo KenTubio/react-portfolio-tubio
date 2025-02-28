@@ -8,7 +8,6 @@
 
 body {
     @apply bg-[rgb(12,12,12)];
-    
 }
 
 ::-webkit-scrollbar {
