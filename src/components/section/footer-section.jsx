@@ -16,11 +16,16 @@ export default function FooterSection(){
                 <hr className="border border-[#FFFFFF1A] w-full" />
 
                 <figure className="mt-16 flex justify-center items-center gap-10 text-3xl">
-                    <a href="https://web.facebook.com/kenneth.tubio" target="_blank"><FaFacebookSquare /></a>
-                    <a href="https://x.com/siBrolngto" target="_blank"><FaXTwitter /></a>
-                    <a href="https://www.messenger.com/t/100004375868644" target="_blank"><FaFacebookMessenger /></a>
-                    <a href="https://github.com/KenTubio" target="_blank"><FaGithubSquare /></a>
-                    <a href="https://www.linkedin.com/" target="_blank"><FaLinkedin /></a>
+                    <a className="hover:scale-125 transition hover:cursor-pointer
+                    " href="https://web.facebook.com/kenneth.tubio" target="_blank"><FaFacebookSquare /></a>
+                    <a className="hover:scale-125 transition hover:cursor-pointer
+                    " href="https://x.com/siBrolngto" target="_blank"><FaXTwitter /></a>
+                    <a className="hover:scale-125 transition hover:cursor-pointer
+                    " href="https://www.messenger.com/t/100004375868644" target="_blank"><FaFacebookMessenger /></a>
+                    <a className="hover:scale-125 transition hover:cursor-pointer
+                    " href="https://github.com/KenTubio" target="_blank"><FaGithubSquare /></a>
+                    <a className="hover:scale-125 transition hover:cursor-pointer
+                    " href="https://www.linkedin.com/in/kenneth-tubio-814b35359/" target="_blank"><FaLinkedin /></a>
                 </figure>
 
                 <div className="flex justify-center items-center mt-10">

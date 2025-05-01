@@ -14,7 +14,7 @@ export default function SecondSection(){
        <Fragment>
             <section id="second-section" className="text-white px-28 sm:p-11 mt-10">
 
-                <h1 className="font-handjet font-bold text-4xl pb-20 sm:text-3xl sm:text-center tracking-wide relative">
+                <h1 className="font-handjet font-bold text-5xl pb-20 sm:text-3xl sm:text-center tracking-wide relative">
                     LET ME SHOW YOU HOW I CAN HELP.
                     <div className="w-24 h-24 absolute border-t-2 border-l-2 -top-8 -left-8  border-t-[#FFFFFF1A] border-l-[#FFFFFF1A]"></div>
                     <div className="w-24 h-24 absolute border-t-2 border-r-2 -top-8 -right-8 border-t-[#FFFFFF1A] border-r-[#FFFFFF1A]"></div>

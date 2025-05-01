@@ -42,6 +42,20 @@ export default {
         
         },
 
+        asideL: {
+          "0%": { transform: "translateX(20px)" },
+          "50%": { transform: "translateX(0px)" },
+          "100%": { transform: "translateX(20px)"},
+
+        },
+
+        asideR: {
+          "0%": { transform: "translateX(-20px)" },
+          "50%": { transform: "translateX(0px)" },
+          "100%": { transform: "translateX(-20px)"},
+
+        },
+
         shake: {
           
         },
@@ -56,6 +70,8 @@ export default {
       animation: {
         rotate: "rotate 2s ease-in-out infinite",
         slider: "slider 10s ease-in-out infinite",
+        asideL: "asideL 2s ease-in-out infinite",
+        asideR: "asideR 2s ease-in-out infinite",
       },
     },
   },

@@ -1,8 +1,9 @@
 import { Fragment, useEffect} from "react"
 import AOS from "aos";
 import "aos/dist/aos.css";
-import ContactMe from "./contact-me";
+import ContactMe from "../contact-me";
 import { FiChevronsDown } from "react-icons/fi";
+import { GoArrowLeft } from "react-icons/go";
 
 
 export function FirstSection(){
@@ -43,9 +44,14 @@ export function FirstSection(){
                     developer and web designer.
                 </p>
 
-                <p className="text-slate-600 text-2xl lg:text-xl sm:text-sm md:text-base font-inter antialiased w-9/12 lg:w-full" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="1000">
+                <p className="text-slate-600 text-xl sm:text-sm md:text-base font-inter antialiased w-9/12 lg:w-full" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="1000">
                     I’m a aspiring front-end web developer who helps in creating user-friendly web applications. I focus on building responsive designs and simple, functional interfaces that enhance the user experience.
                 </p>
+
+                <button className="text-white text-3xl flex items-center gap-2 sm:text-sm md:text-base font-inter tracking-widest hover:underline transition hover:underline-offset-8 antialiased w-fit group hover:text-slate-400" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="1500" onClick={()=>{window.open('/Tubio-cv.png', '_blank')}}>
+                    View CV 
+                    <span className="transition animate-asideL"><GoArrowLeft /></span>
+                </button>
 
                 <a href="#second-section" className=" text-white hidden absolute bottom-28 md:block text-4xl animate-bounce cursor-pointer"><FiChevronsDown /></a>
 

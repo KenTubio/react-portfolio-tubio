@@ -1,21 +1,31 @@
-import { Fragment } from "react";
-import {FirstSection} from "./components/first-section";
-import { Test } from "./components/tes";
-import SecondSection from "./components/second-section";
-import ThirdSection from "./components/third-section";
-import ForthSection from "./components/forth-section";
-import FooterSection from "./components/footer-section";
+
+import {FirstSection} from "./components/section/first-section";
+import { Routes, Route } from "react-router-dom";
+import SecondSection from "./components/section/second-section";
+import ThirdSection from "./components/section/third-section";
+import ForthSection from "./components/section/forth-section";
+import FooterSection from "./components/section/footer-section";
+import Project from "./components/projects";
 
 export default function App(){
   return(
-    <Fragment>
-      <FirstSection />
-      <SecondSection />
-      <ThirdSection />
-      <ForthSection />
-      <FooterSection />
-      {/* <Test /> */}
-    </Fragment>
+      <>
+        <Routes>
+          <Route path="/" element={
+              <>
+                <FirstSection />
+                <SecondSection />
+                <ThirdSection />
+                <ForthSection />
+                <FooterSection />
+              </> 
+          } />
+
+          <Route path="/projects" element={<Project />} />
+
+        </Routes>
+      </>
+      
   );
 }
 

@@ -6,8 +6,10 @@
 @tailwind components;
 @tailwind utilities;
 
+
 body {
     @apply bg-[rgb(12,12,12)];
+    cursor: url('./images/custom.png'), auto;
 }
 
 ::-webkit-scrollbar {
@@ -16,7 +18,9 @@ body {
 
 html {
     scroll-behavior: smooth;
-  }
-  
+}
 
+.animation-container:hover .animate-slider {
+    animation-play-state: paused;
+  }
 
