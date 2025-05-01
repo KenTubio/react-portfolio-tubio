@@ -7,6 +7,7 @@ import { AiTwotoneHtml5 } from "react-icons/ai";
 import { TbBrandTailwind } from "react-icons/tb";
 import { FaJsSquare } from "react-icons/fa";
 import { GoArrowLeft,  GoArrowRight} from "react-icons/go";
+import { FaReact } from "react-icons/fa6";
 
 
 export default function ForthSection() {
@@ -30,10 +31,10 @@ export default function ForthSection() {
             data-aos-duration="1500"
           >
             <h1 className="relative font-handjet font-bold text-4xl md:text-2xl tracking-wide text-slate-300 w-full flex justify-between items-center">
-              EE - Landing Page
+              BLOG - BSIT TOUR 2025
               <a
                 className="text-3xl md:text-2xl hover:scale-125 cursor-pointer transition hover:rotate-45"
-                href="https://kentubio.github.io/tubio_portfolio/dist/projects/landing-page.html"
+                href="https://bsit-tour-2025.netlify.app/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -42,7 +43,7 @@ export default function ForthSection() {
             </h1>
 
             <p className="font-inter tracking-widest text-base md:text-sm xs:text-xs leading-7 ">
-              This landing page highlights my frontend skills with a clean,
+              This blog highlights my frontend skills with a clean,
               responsive design using Tailwind CSS for optimal structure and
               adaptability.
             </p>
@@ -50,16 +51,14 @@ export default function ForthSection() {
             <p className="text-slate-400 text-sm md:text-xs xs:text-[0.55rem]">
               I handled the design implementation and developtment, focusing on
               creating a fully responsive layout with Tailwind CSS. I
-              implemented flexible grid systems, adaptive styling, and media
-              query optimizations. This project helped me build a strong
+              implemented flexible grid systems, adaptive styling. This project helped me build a strong
               foundation in responsive web design, allowing me to create
-              visually consistent and user-friendly websites before moving on to
-              more advanced frameworks.
+              visually consistent and user-friendly websites.
             </p>
 
             <figure className="flex gap-5 text-4xl sm:text-2xl">
-              <AiTwotoneHtml5 />
               <TbBrandTailwind />
+              <FaReact />
               <FaJsSquare />
             </figure>
           </div>
@@ -78,8 +77,8 @@ export default function ForthSection() {
                 playsInline
                 preload="none"
                 className="w-full h-full rounded-2xl"
-                src="./videos/landingpage.mp4"
-                poster="./images/landing.png"
+                src="./videos/blog.mp4"
+                poster="./images/blog.png"
               ></video>
             </LazyLoad>
           </div>
