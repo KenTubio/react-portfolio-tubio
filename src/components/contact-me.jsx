@@ -5,7 +5,7 @@ import { FaRegEnvelope } from "react-icons/fa";
 
 export default function ContactMe() {
   const [isPopUpVisible, setIsPopupVisible] = useState(false);
-  
+  const [isLoading, setIsLoading] = useState(false);  
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -20,14 +20,13 @@ export default function ContactMe() {
     setIsPopupVisible(false);
   }
 
-  
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-
   const handleSubmit = (e) => {
     e.preventDefault();
+    setIsLoading(true);  
 
     emailjs
       .send(
@@ -41,16 +40,18 @@ export default function ContactMe() {
           console.log("SUCCESS!", response.status, response.text);
           alert("Message sent successfully! Thank you contacting me!");
           setIsPopupVisible(false);
+          setIsLoading(false); 
 
           setFormData({
-            name:"",
-            email:"",
-            message:"",
+            name: "",
+            email: "",
+            message: "",
           });
         },
         (err) => {
           console.log("FAILED...", err);
           alert("Failed to send message, try again.");
+          setIsLoading(false);  
         }
       );
   };
@@ -111,9 +112,14 @@ export default function ContactMe() {
               required
             ></textarea>
 
-            <button className="bg-white text-black w-2/3 sm:w-full py-2 mt-6 rounded-sm font-handjet font-bold text-xl lg:text-lg tracking-wider hover:scale-105 transition">
-              SUBMIT
-            </button>
+      
+            {isLoading ? (
+              <div className="spinner"></div>
+            ) : (
+              <button className="bg-white text-black w-2/3 sm:w-full py-2 mt-6 rounded-sm font-handjet font-bold text-xl lg:text-lg tracking-wider hover:scale-105 transition">
+                SUBMIT
+              </button>
+            )}
           </form>
         </div>
       )}
