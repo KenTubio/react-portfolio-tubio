@@ -6,6 +6,7 @@ import ThirdSection from "./components/section/third-section";
 import ForthSection from "./components/section/forth-section";
 import FooterSection from "./components/section/footer-section";
 import Project from "./components/projects";
+import Certificates from "./components/section/certifications";
 
 export default function App(){
   return(
@@ -16,6 +17,7 @@ export default function App(){
                 <FirstSection />
                 <SecondSection />
                 <ThirdSection />
+                <Certificates />
                 <ForthSection />
                 <FooterSection />
               </> 
