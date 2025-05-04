@@ -1,4 +1,5 @@
 import { FaXTwitter } from "react-icons/fa6";
+import { TbArrowBadgeLeft } from "react-icons/tb";
 import React, { useState, useRef } from "react";
 
 function Certificates() {
@@ -44,7 +45,7 @@ function Certificates() {
         style={{
           cursor: isDragging ? "grabbing" : "grab",
           userSelect: "none",
-        }}
+        }} data-aos="fade-right" data-aos-duration="2000"
       >
         <div className="bg-gradient-to-b from-[#716d6d] to-[#0f0f0f] rounded-3xl sm:w-72">
           <figure className="w-fit relative">
@@ -344,6 +345,12 @@ function Certificates() {
             </a>
         </button>
       </main>
+
+      <div className="w-full flex justify-around slide items-center mt-7 text-6xl md:text-4xl">
+        <span><TbArrowBadgeLeft /></span>
+        <span><TbArrowBadgeLeft /></span>
+        <span><TbArrowBadgeLeft /></span>
+      </div>
 
     </section>
   );

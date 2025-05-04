@@ -10,6 +10,7 @@
 body {
     @apply bg-[rgb(12,12,12)];
     cursor: url('./images/custom.png'), auto;
+    overflow-x: hidden;  
 }
 
 ::-webkit-scrollbar {
@@ -37,4 +38,23 @@ html {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
 }
+
+
+.slide{
+    animation: slide 1.5s linear infinite;
+}
+
+@keyframes slide {
+    0% { transform: translateX(0px); }
+    50% { transform: translateX(-80px); }
+}
+
+@media (max-width: 768px) {
+    @keyframes slide {
+        0% { transform: translateX(0px); }
+        50% { transform: translateX(-30px); }
+    }
+  }
+  
+  
   

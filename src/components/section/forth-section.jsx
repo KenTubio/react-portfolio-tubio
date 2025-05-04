@@ -8,6 +8,7 @@ import { TbBrandTailwind } from "react-icons/tb";
 import { FaJsSquare } from "react-icons/fa";
 import { GoArrowLeft,  GoArrowRight} from "react-icons/go";
 import { FaReact } from "react-icons/fa6";
+import { LuGithub } from "react-icons/lu";
 
 
 export default function ForthSection() {
@@ -55,6 +56,8 @@ export default function ForthSection() {
               foundation in responsive web design, allowing me to create
               visually consistent and user-friendly websites.
             </p>
+
+            <a className="flex items-center text-xl underline underline-offset-4 italic hover:text-green-700" href="https://github.com/KenTubio/BSIT-TOUR-2025" target="_blank"><LuGithub />Source Code</a>
 
             <figure className="flex gap-5 text-4xl sm:text-2xl">
               <TbBrandTailwind />
@@ -115,6 +118,8 @@ export default function ForthSection() {
               foundation in frontend development, allowing me to strengthen my
               JavaScript skills before moving on to React.
             </p>
+
+            <a className="flex items-center text-xl underline underline-offset-4 italic hover:text-green-700" href="https://github.com/KenTubio/tubio_portfolio/blob/master/dist/projects/ecommerce-sample.html" target="_blank"><LuGithub />Source Code</a>
 
             <figure className="flex gap-5 text-4xl sm:text-2xl">
               <AiTwotoneHtml5 />
@@ -178,6 +183,8 @@ export default function ForthSection() {
               complex applications.
             </p>
 
+            <a className="flex items-center text-xl underline underline-offset-4 italic hover:text-green-700" href="https://github.com/KenTubio/tubio_portfolio/blob/master/dist/projects/apiTraining(cryptowatch).html" target="_blank"><LuGithub />Source Code</a>
+
             <figure className="flex gap-5 text-4xl sm:text-2xl">
               <AiTwotoneHtml5 />
               <TbBrandTailwind />
@@ -208,7 +215,7 @@ export default function ForthSection() {
 
         <center>
           <button
-            className="mt-11 text-white text-3xl antialiased font-inter flex items-center hover:underline transition hover:underline-offset-8 hover:text-gray-400"
+            className="mt-11 text-white text-3xl sm:text-xl antialiased font-inter flex items-center hover:underline transition hover:underline-offset-8 hover:text-gray-400"
 
             onClick={()=>{
               window.open('/projects', '_blank')

@@ -15,7 +15,7 @@ export default function FooterSection(){
 
                 <hr className="border border-[#FFFFFF1A] w-full" />
 
-                <figure className="mt-16 flex justify-center items-center gap-10 text-3xl">
+                <figure className="mt-16 flex justify-center items-center gap-10 text-3xl sm:text-xl">
                     <a className="hover:scale-125 transition hover:cursor-pointer
                     " href="https://web.facebook.com/kenneth.tubio" target="_blank"><FaFacebookSquare /></a>
                     <a className="hover:scale-125 transition hover:cursor-pointer

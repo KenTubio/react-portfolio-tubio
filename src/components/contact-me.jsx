@@ -77,8 +77,8 @@ export default function ContactMe() {
 
           <form className="flex flex-col gap-5 w-full h-full justify-center items-center sm:p-4" onSubmit={handleSubmit}>
             <div className="w-2/3 sm:w-full">
-              <h1 className="font-handjet antialiased text-6xl font-bold tracking-widest">Contact Me</h1>
-              <p className="font-inter text-slate-400 w-3/4 sm:w-full tracking-wider mt-3 mb-8 text-sm">
+              <h1 className="font-handjet antialiased text-6xl sm:text-5xl font-bold tracking-widest">Contact Me</h1>
+              <p className="font-inter text-slate-400 w-3/4 sm:w-full tracking-wider mt-3 mb-8 text-sm sm:text-[.7rem]">
                 Feel free to reach out for any opportunities or inquiries. I'd love to connect!
               </p>
             </div>

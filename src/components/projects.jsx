@@ -7,6 +7,7 @@ import { AiTwotoneHtml5 } from "react-icons/ai";
 import { TbBrandTailwind } from "react-icons/tb";
 import { FaJsSquare } from "react-icons/fa";
 import { FaReact } from "react-icons/fa6";
+import { LuGithub } from "react-icons/lu";
 
 
 export default function Projects() {
@@ -54,6 +55,8 @@ export default function Projects() {
               foundation in responsive web design, allowing me to create
               visually consistent and user-friendly websites.
             </p>
+
+            <a className="flex items-center text-xl underline underline-offset-4 italic hover:text-green-700" href="https://github.com/KenTubio/tubio_portfolio/blob/master/dist/projects/landing-page.html" target="_blank"><LuGithub />Source Code</a>
 
             <figure className="flex gap-5 text-4xl sm:text-2xl">
               <TbBrandTailwind />
@@ -109,6 +112,7 @@ export default function Projects() {
                 I developed the entire game, focusing on dynamic game mechanics and UI interaction. The game evaluates the winner based on 2 out of 3 stats, with React handling the state management and interactivity. This project sharpened my ReactJS skills while providing a fun and engaging experience for players.
             </p>
 
+            <a className="flex items-center text-xl underline underline-offset-4 italic hover:text-green-700" href="https://github.com/KenTubio/pokeDex" target="_blank"><LuGithub />Source Code</a>
 
             <figure className="flex gap-5 text-4xl sm:text-2xl">
               <FaReact />
