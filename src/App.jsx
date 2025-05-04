@@ -7,6 +7,7 @@ import ForthSection from "./components/section/forth-section";
 import FooterSection from "./components/section/footer-section";
 import Project from "./components/projects";
 import Certificates from "./components/section/certifications";
+import Experience from "./components/section/experience";
 
 export default function App(){
   return(
@@ -18,6 +19,7 @@ export default function App(){
                 <SecondSection />
                 <ThirdSection />
                 <Certificates />
+                <Experience />
                 <ForthSection />
                 <FooterSection />
               </> 
