@@ -48,8 +48,8 @@ export function FirstSection(){
                     I’m a aspiring front-end web developer who helps in creating user-friendly web applications. I focus on building responsive designs and simple, functional interfaces that enhance the user experience.
                 </p>
 
-                <button className="text-white text-3xl flex items-center gap-2 sm:text-sm md:text-base font-inter tracking-widest hover:underline transition hover:underline-offset-8 antialiased w-fit group hover:text-slate-400" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="1500" onClick={()=>{window.open('/Tubio-cv.png', '_blank')}}>
-                    View CV 
+                <button className="text-white text-3xl flex items-center gap-2 sm:text-sm md:text-base font-inter tracking-widest hover:underline transition hover:underline-offset-8 antialiased w-fit group hover:text-slate-400" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="1500" onClick={()=>{window.open('images/Kenneth_Tubio_Resume.pdf', '_blank')}}>
+                    View RESUME 
                     <span className="transition animate-asideL"><GoArrowLeft /></span>
                 </button>
 

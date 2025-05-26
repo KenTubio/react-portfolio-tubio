@@ -19,7 +19,7 @@ export default function App(){
                 <SecondSection />
                 <ThirdSection />
                 <Certificates />
-                <Experience />
+                {/* <Experience /> */}
                 <ForthSection />
                 <FooterSection />
               </> 
